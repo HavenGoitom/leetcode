@@ -9,4 +9,5 @@ def moveZeroes(nums):
         nums[i] = 0
 
     return nums
-nums = [0, 1, 0, 3, 12]
+nums = [0, 1]
+print(moveZeroes(nums))
