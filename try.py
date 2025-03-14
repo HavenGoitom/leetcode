@@ -1,4 +1,6 @@
-n= 4^8
-m= 5^5
-print(n)
-print(m)
+import math
+num =16
+root_num = math.isqrt(num)
+squared = root_num * root_num
+if num == squared:
+    print(num)
